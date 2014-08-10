@@ -1,0 +1,83 @@
+.comic-post {
+	margin: 1em 0;
+	background-color: #111;
+	border-radius: 1em;
+	width: 100%;
+}
+
+.comic-post--self {
+	background-color: #555;
+}
+
+.comic-post-cell {
+	min-width: 50px;
+	min-height: 25px;
+	padding: 1.5em .5em;
+}
+
+.comic-post-cell--username {
+	font-weight: bold;
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+.comic-post-cell--username--new{
+	padding: 0 1em;
+	vertical-align: middle;
+}
+
+.comic-post-cell--submit {
+	padding: 0 1em 1em;
+	text-align: center;
+}
+
+.comic-post-cell--text {
+	width: 100%;
+}
+
+.comic-post-cell--text--new {
+	padding: 1.5em 1em 1.5em 0;
+}
+
+.comic-post-cell--text--new__input {
+	width: auto;
+	height: 2em;
+	width: 100%;
+	-webkit-transition: height .3s;
+    -moz-transition: height .3s;
+    -o-transition: height .3s;
+    transition: height .3s;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.comic-post-cell--text--new__input:focus {
+	height: 4em;
+}
+
+.comic-post-cell--submit {
+	cursor: pointer;
+}
+
+.comic-post-cell--vote:not(.comic-post-cell--vote--hidden) {
+	vertical-align: top;
+	background: url(../img/star-off.png) no-repeat center 1.3em;
+	cursor: pointer;
+}
+
+.comic-post-cell--vote--up:not(.comic-post-cell--vote--hidden) {
+	background-image: url(../img/star-on.png);
+}
+
+.comic-post-cell--vote--winner:not(.comic-post-cell--vote--hidden) {
+	background-image: url(../img/star-gold.png);
+	cursor: default;
+}
+.comic-post-cell--vote--hidden {
+	background-image: none;
+}
+
+.comic-post-cell--placeholder {
+	width: 50px;
+}

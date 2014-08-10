@@ -1,0 +1,11 @@
+<?php
+
+	$settings = [
+		'site_title' => "Crowdsourced Comics!",
+		'sub_title' => "A crowdsourced comic experiment"
+	];
+
+	function setting($s) {
+		global $settings;
+		echo(isset($settings[$s]) ? $settings[$s] : '');
+	}

@@ -1,0 +1,20 @@
+.modal-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal {
+	border-radius: 1em;
+	background-color: #222;
+	padding: 1.5em;
+	position: relative;
+	left: 10%;
+	max-width: 70%;
+	width: 500px;
+	top: 100px;
+}

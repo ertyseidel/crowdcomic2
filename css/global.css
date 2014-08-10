@@ -1,0 +1,91 @@
+html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	background-image: url(../img/background-tile.png);
+	background-color: #222;
+	color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 1.5em 0;
+}
+
+h1 a,
+h1 a:visited {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+th {
+	text-align: left;
+	padding-right: 1em;
+}
+
+.all {
+	padding: 2em;
+}
+
+a {
+	color: #00ff00;
+}
+
+a:visited {
+	color: #009900;
+}
+
+.input {
+	background: #333;
+	padding: 5px 10px;
+	border: none;
+	font-size: 16px;
+	color: white;
+	outline: 0;
+}
+
+.button {
+	font-size: 16px;
+	background: #222;
+	padding: .5em;
+	border: none;
+	background-color: #333;
+	border-radius: 1em;
+	cursor: pointer;
+	color: white;
+	outline: 0;
+	border: 1px solid #333;
+}
+
+.button:hover, .button:focus {
+	color: #00ff00;
+	border-color: #00ff00;
+}
+
+.clearfix:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.suggestion {
+	font-weight: bold;
+	color: #0066ff;
+}
+
+.question {
+	font-weight: bold;
+	color: #ff6600;
+}
